@@ -4,8 +4,8 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "No se que pasa, te veo", time: 23 },
-  { text: "No se me pasa, Te deseo", time: 25 },
+  { text: "No se que pasa, te veo", time: 22 },
+  { text: "No se me pasa, Te deseo", time: 23.5 },
   { text: "Llevo tatuado tu aroma entero", time: 28 },
   { text: "Mientras caminas yo te espero", time: 30 },
   { text: "No No No", time: 32 },
@@ -74,4 +74,5 @@ function ocultarTitulo() {
 }
 
 // Llama a la función después de 216 segundos (216,000 milisegundos)
+
 setTimeout(ocultarTitulo, 216000);
